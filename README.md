@@ -73,7 +73,7 @@ Trade Simulator/
 
 ## 🖼️ UI Preview
 
-![Alt text](./images/2)
+![Alt text](./images/3)
 
 ---
 
