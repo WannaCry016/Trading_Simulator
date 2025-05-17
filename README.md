@@ -39,14 +39,34 @@ A real-time trade cost simulator built with Python, WebSocket streaming, and a P
 
 ```bash
 Trade Simulator/
-├── core/
-│   └── trade_analyzer.py       # Main logic (slippage, fee, impact, probability)
-├── ui/
-│   ├── main_window.py          # PyQt6 GUI
-│   └── run.py                  # Entry point for GUI
-├── ws/
-│   └── ws_worker.py            # WebSocket client and streaming logic
+├── core/                    
+│   ├── __init__.py
+│   ├── trade_analyzer.py
+│   ├── websocket_client.py   
+├── ui/                       
+│   ├── __init__.py
+│   ├── main_window.py        
+│   └── widgets.py   
+├── requirements.txt          
+├── run.py                   
 ├── README.md
+└── setup.py or pyproject.toml
+
+
++---------------------------------------------------------------+
+|                      Trade Execution Simulator                |
+|---------------------------------------------------------------|
+| [Left Panel: Input]                | [Right Panel: Output]    |
+|-----------------------------------|--------------------------|
+| Exchange:       [OKX        ▼]    | Expected Slippage:   []  |
+| Spot Asset:     [BTC/USDT ▼]      | Expected Fees:       []  |
+| Order Type:     [Market     ]     | Market Impact:       []  |
+| Quantity (USD): [   100     ]     | Net Cost:            []  |
+| Volatility:     [   0.75    ]     | Maker/Taker Ratio:   []  |
+| Fee Tier:       [ Tier 1 ▼ ]      | Internal Latency:    []  |
+|                                   |                          |
+|              [     Submit    ]    |                          |
++---------------------------------------------------------------+
 ```
 
 ---
