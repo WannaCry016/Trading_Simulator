@@ -73,7 +73,7 @@ Trade Simulator/
 
 ## 🖼️ UI Preview
 
-![Alt text](./images/Screenshot 2025-05-18 051821.png)
+![Alt text](./images/2.png)
 
 ---
 
