@@ -1,5 +1,5 @@
 
-# 🧠 Real-Time Trade Simulator
+# GoQuant - Real-Time Trade Simulator
 
 A real-time trade cost simulator built with Python, WebSocket streaming, and a PyQt6 user interface. This project estimates trade execution costs using live L2 order book data from the **OKX Exchange**, providing insights into slippage, market impact, fees, and execution probabilities for both maker and taker strategies.
 
@@ -53,7 +53,7 @@ Trade Simulator/
 
 ## 🖼️ UI Preview
 
-> [Insert screenshot here if available]
+![Alt text](./images/1.png)
 
 ---
 
