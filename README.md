@@ -141,16 +141,8 @@ These can be adjusted in the UI:
 - [ ] Add exchange selector (Binance, Coinbase)
 - [ ] CSV logging & performance dashboard
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 🙋‍♂️ Author
 
 **Ayushman Pal**  
 _Trading Systems & Python Enthusiast_  
-[LinkedIn] | [GitHub] | [Email]
+
