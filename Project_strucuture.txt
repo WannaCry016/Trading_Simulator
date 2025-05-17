@@ -1,0 +1,29 @@
+Trade Simulator/
+├── core/                    
+│   ├── __init__.py
+│   ├── trade_analyzer.py
+│   ├── websocket_client.py   
+├── ui/                       
+│   ├── __init__.py
+│   ├── main_window.py        
+│   └── widgets.py   
+├── requirements.txt          
+├── run.py                   
+├── README.md
+└── setup.py or pyproject.toml
+
+
++---------------------------------------------------------------+
+|                      Trade Execution Simulator                |
+|---------------------------------------------------------------|
+| [Left Panel: Input]                | [Right Panel: Output]    |
+|-----------------------------------|--------------------------|
+| Exchange:       [OKX        ▼]    | Expected Slippage:   []  |
+| Spot Asset:     [BTC/USDT ▼]      | Expected Fees:       []  |
+| Order Type:     [Market     ]     | Market Impact:       []  |
+| Quantity (USD): [   100     ]     | Net Cost:            []  |
+| Volatility:     [   0.75    ]     | Maker/Taker Ratio:   []  |
+| Fee Tier:       [ Tier 1 ▼ ]      | Internal Latency:    []  |
+|                                   |                          |
+|              [     Submit    ]    |                          |
++---------------------------------------------------------------+

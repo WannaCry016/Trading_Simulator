@@ -1,0 +1,5 @@
+apikey = "01e4a613-b3d9-40eb-8026-bcb91aa9bd0f"
+secretkey = "0F45AD2763A6352B858BBC11B536B6BE"
+IP = ""
+API key name = "GoQuant"
+Permissions = "Read/Withdraw/Trade"
